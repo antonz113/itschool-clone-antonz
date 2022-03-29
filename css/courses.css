@@ -1,0 +1,90 @@
+:root {
+  --bg-primary: #141e4c;
+  --text-primary: #101d42;
+  --text-secondary: #fbb44c;
+  --text-dark: #2b2922;
+  --text-light: #eaeaea;
+  --text-white: #ffffff;
+  --bg-primary: #141e4c;
+  --bg-secondary: #dfedf5;
+  --bg-dark: #101d42;
+  --bg-light: #ffffff;
+  --button-color: #2bb686;
+  --bg-dark: #101d42;
+  --bg-light: #ffffff;
+  --bg-primary: #141e4c;
+  --bg-secondary: #dfedf5;
+  --button-color: #2bb686;
+  --fs-large: 1rem;
+  --fs-medium: 0.875rem;
+  --fs-small: 0.75rem;
+  --mobile-logo-height: 45px;
+  --spacing-large: 1.75rem;
+  --spacing-medium: 1rem;
+  --spacing-small: 0.5rem;
+  --spacing-tiny: 0.25rem;
+  --spacing-xl: 2.625rem;
+  --text-dark: #2b2922;
+  --text-light: #eaeaea;
+  --text-primary: #101d42;
+  --text-secondary: #fbb44c;
+  --text-white: #ffffff;
+}
+
+nav .navbar-nav .nav-item .nav-link,
+nav .navbar-nav .dropdown-item {
+  text-transform: uppercase;
+  color: var(--text-light);
+}
+nav .navbar-nav .nav-item .nav-link:hover,
+nav .navbar-nav .dropdown-item:hover {
+  color: var(--text-secondary);
+  background-color: transparent;
+}
+nav .navbar-nav .dropdown-menu {
+  background-color: var(--bg-dark);
+}
+footer .footer-info {
+  font-size: var(--fs-small);
+}
+.itschool-text-primary {
+  color: var(--text-secondary);
+}
+
+.itschool-bg-primary {
+  background-color: var(--bg-primary);
+}
+
+.courses {
+  background-color: var(--bg-primary);
+  height: 50vh;
+}
+.costum-card img {
+  height: auto;
+  width: 100%;
+}
+.presentation-image {
+  width: 100%;
+  height: auto;
+}
+.microsoft-logo {
+  width: 100px;
+  height: auto;
+  vertical-align: middle;
+  margin-left: 1px;
+}
+.btn-details {
+  font-size: var(--fs-large);
+  justify-content: center;
+  background-color: var(--button-color);
+  border: 1px solid var(--button-color);
+  border-radius: 5px;
+  width: 100px;
+  padding: 4px;
+}
+.container-footer {
+  background-color: #101d42;
+}
+.itschool-bg-primary {
+  background-color: var(--bg-primary);
+}

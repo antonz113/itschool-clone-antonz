@@ -1,0 +1,67 @@
+:root {
+  --bg-dark: #101d42;
+  --bg-light: #ffffff;
+  --bg-primary: #141e4c;
+  --bg-secondary: #dfedf5;
+  --button-color: #2bb686;
+  --fs-large: 1rem;
+  --fs-medium: 0.875rem;
+  --fs-small: 0.75rem;
+  --mobile-logo-height: 45px;
+  --spacing-large: 1.75rem;
+  --spacing-medium: 1rem;
+  --spacing-small: 0.5rem;
+  --spacing-tiny: 0.25rem;
+  --spacing-xl: 2.625rem;
+  --text-dark: #2b2922;
+  --text-light: #eaeaea;
+  --text-primary: #101d42;
+  --text-secondary: #fbb44c;
+  --text-white: #ffffff;
+}
+
+.welcome-banner {
+  height: 100vh;
+}
+
+.container img {
+  display: flex;
+  flex-direction: row;
+  line-height: 1px;
+  height: 25px;
+  margin-bottom: 1px;
+  width: auto;
+  top: var(--spacing-small);
+}
+
+.container p span {
+  color: var(--text-secondary);
+}
+.calendar .card .bar {
+  height: 5px;
+  width: 100%;
+  background-color: var(--button-color);
+  border-radius: 3px;
+}
+div .row {
+  z-index: -999;
+}
+
+.who-we-are {
+  background-color: var(--bg-secondary);
+}
+main .partners .partners-list img {
+  height: 100px;
+  width: auto;
+  filter: grayscale(100%);
+}
+
+main .partners .partners-list img:hover {
+  filter: grayscale(0);
+}
+.container-footer {
+  background-color: #101d42;
+}
+.itschool-btn-succes {
+  background-color: var(--button-color);
+}
